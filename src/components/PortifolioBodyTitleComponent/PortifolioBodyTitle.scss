@@ -1,0 +1,66 @@
+.portifolio-body-title-container{
+    text-align: center;
+    margin-top: 15%;
+    width: 100%;
+}
+
+.portifolio-body-title {
+    color: #32343d;
+    font-size: 2.5em;
+    font-weight: 600;
+    padding: 0 5%;
+}
+
+.Typewriter {
+    color: blue;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.portifolio-body-caption {
+    color: #909090;
+    font-size: 1.5em;
+    padding: 0 5%;
+    font-family: 'Lato';
+}
+
+@media only screen and (min-width:'768px') {
+    .portifolio-body-title-container{
+        margin-top: 6%;
+    }
+    .portifolio-body-title {
+        font-size: 2.55em;
+        margin-bottom: 5%;
+    }
+    .Typewriter {
+        margin-left: 2%;
+    }
+    .portifolio-body-caption {
+        font-size: 1.6em;
+    }
+}
+
+@media only screen and (min-width:'1024px') {
+    .portifolio-body-title-container{
+        margin-top: 14%;
+    }
+    .portifolio-body-title {
+        font-size: 2.65em;
+        margin-bottom: 3%;
+        padding: 0 15%;
+        font-weight: 700;
+    }
+    .portifolio-body-caption {
+        font-size: 1.7em;
+        font-weight: 100;
+    }
+}
+
+@media only screen and (min-width:'1440px') {
+    .portifolio-body-title {
+        font-size: 3.75em;
+        margin-bottom: 3%;
+        padding: 0 15%;
+        font-weight: 600;
+    }
+}

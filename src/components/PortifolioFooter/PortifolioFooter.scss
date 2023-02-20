@@ -1,0 +1,127 @@
+.ant-btn.ant-btn-lg {
+    font-size: 18px;
+    height: 40px;
+    padding: 18px 50px 45px;
+    border-radius: 4px;
+    background: #294cff;
+    color: white;
+    font-weight: 500;
+    margin-top: 5%;
+    border-color: transparent;
+}
+
+.portifolio-footer-container {
+    text-align: center;
+    padding-top: 25%;
+}
+
+.portifolio-footer-content-container {
+    background-color: #252525;
+}
+
+.footer-content-container{
+    border-bottom: 0.5px solid gray;
+    padding: 20% 10%;
+    margin: 0 2%;
+}
+
+.footer-caption {
+    margin-top: 0;
+    color: white;
+}
+
+.footer-content-list-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10% 5%;
+    color: gray;
+}
+
+.footer-content-list-item {
+    margin: 3% 7% 3% 0;
+}
+
+.footer-copy-right-content {
+    color: gray;
+    font-size: 12px;
+    margin: 10% 0;
+}
+
+@media only screen and (min-width:'768px') {
+    .portifolio-footer-container {
+        padding-top: 10%;
+    }
+    .footer-content-container{
+        border-bottom: 0.5px solid gray;
+        padding: 10% 0%;
+        margin: 0 10%;
+    }
+    .footer-caption {
+        font-size: 2em;
+    }
+    .footer-content-list-container{
+        padding: 2% 3%;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-content-list-item {
+        margin: 2% 3% 2% 0;
+    }
+    .footer-copy-right-content {
+        color: rgb(165, 164, 164);
+        font-size: 11.5px;
+        margin: 5% 0;
+    }
+}
+
+@media only screen and (min-width:'1024px') {
+    .portifolio-footer-container {
+        padding-top: 17%;
+    }
+    .footer-content-container{
+        border-bottom: 0.5px solid gray;
+        padding: 7% 0%;
+        margin: 0 10%;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        align-items: flex-start;
+    }
+    .ant-btn.ant-btn-lg {
+        margin-top: 0%;
+    }
+    .footer-copy-right-content {
+        color: rgb(165, 164, 164);
+        font-size: 12px;
+        margin: 3% 0;
+    }
+}
+
+@media only screen and (min-width:'1440px') {
+    .portifolio-footer-container {
+        padding-top: 12%;
+    }
+    .footer-caption {
+        font-size: 2.6em;
+        padding-right: 30%;
+        font-weight: 600;
+    }
+    .footer-content-container{
+        border-bottom: 0.5px solid gray;
+        padding: 4% 0%;
+        margin: 0 8%;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        align-items: flex-start;
+    }
+    .footer-content-list-item {
+        margin: 1% 1.5% 1% 0;
+        font-size: 1em;
+    }
+    .footer-copy-right-content {
+        color: rgb(129, 128, 128);
+        font-size: 13px;
+        margin: 3% 0;
+    }
+}
